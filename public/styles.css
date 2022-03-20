@@ -1,0 +1,117 @@
+header {
+    background-color: coral;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.header--title {
+    margin-left: 20px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header--cart {
+    margin-right: 20px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header--title:hover, .header--cart:hover {
+    color: white
+}
+
+.img--grid {
+    margin-top: 3.5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1px;
+}
+
+.image {
+    height: 100px;
+    width: 100px
+}
+
+.image--wide {
+    grid-column: 3;
+}
+
+.image--big {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.fav--icon {
+    color: red;
+    cursor: pointer;
+}
+
+.cart--item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.cart--item--image {
+    width: 200px;
+    height: 100px;
+}
+
+.cart--item--left {
+    display: flex;
+    align-items: center;
+}
+
+.ri-delete-bin-line {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.ri-delete-bin-line:hover {
+    animation: normal;
+    animation-duration: 300ms;
+    font-size: 4em;
+}
+
+.checkout--title {
+    text-align: center;
+}
+
+.price--total {
+    text-align: right;
+}
+
+.button--checkout {
+    margin-left: 50%;
+    height: 40px;
+    width: fit-content;
+    background-color: gray;
+    border-radius: 0;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.ri-heart-fill {
+    font-size: 1em;
+    color: red;
+    cursor: pointer;
+}
+
+.ri-heart-line {
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.ri-add-circle-line {
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+
